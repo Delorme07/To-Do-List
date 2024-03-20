@@ -131,7 +131,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-image: url('navbar.png');
   background-size: cover;
   padding: 15px 30px;
   border-radius: 10px;
