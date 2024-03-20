@@ -182,11 +182,7 @@ function App() {
       {/* End Edit Task Modal */}
 
       {/* Complete All and Delete All Buttons */}
-      <div className="mt-3">
-        {!showUndo && <button className="btn complete-all-button" onClick={completeAll}>Complete All</button>}
-        {showUndo && <button className="btn undo-complete-all-button" onClick={undoCompleteAll}>Undo</button>}
-        <button className="btn delete-all-button" onClick={handleDeleteAllConfirmation}>Delete All</button>
-      </div>
+      
       {/* End Complete All and Delete All Buttons */}
 
       {/* Delete All Confirmation Modal */}
