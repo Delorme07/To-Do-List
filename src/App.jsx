@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEdit, faTrash, faUndo } from '@fortawesome/free-solid-svg-icons';
+import imageSrc from './navbar.png'
 
 function App() {
   const [tasks, setTasks] = useState([]);
@@ -106,7 +107,7 @@ function App() {
 
   return (
     <div className="container custom-container">
-      <div className="navbar custom-navbar">
+      <div className="navbar" style={{ backgroundImage: `url(${imageSrc})` }}>
         <h1 className="text-center navtext">To-Do</h1>
       </div>
       <div className="input-group mb-3">
